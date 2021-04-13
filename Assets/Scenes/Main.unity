@@ -20795,6 +20795,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Start_btn
       objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614526, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
