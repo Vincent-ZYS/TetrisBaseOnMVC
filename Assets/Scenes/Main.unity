@@ -11811,6 +11811,36 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.33333334
       objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 790228917}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPauseGameClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8441946758468043256, guid: fe394fa44ad75fc4da3105f879e71e47,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -17210,7 +17240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -302}
+  m_AnchoredPosition: {x: 0, y: 307}
   m_SizeDelta: {x: 717.8, y: 552.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1807538530
