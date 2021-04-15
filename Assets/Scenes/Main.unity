@@ -5797,6 +5797,7 @@ GameObject:
   - component: {fileID: 577795982}
   - component: {fileID: 577795983}
   - component: {fileID: 577795984}
+  - component: {fileID: 577795985}
   m_Layer: 0
   m_Name: Control
   m_TagString: Control
@@ -5834,6 +5835,7 @@ MonoBehaviour:
   modelGo: {fileID: 0}
   viewGo: {fileID: 0}
   cameraManager: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!114 &577795984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5846,6 +5848,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf9c77895eddd5b4da977e7b890e22b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &577795985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577795981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c608cc9631bd941b6489d0151104f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrisShapeArray:
+  - {fileID: 6860278118570346948, guid: 5994d145ef4b78f49bb2602f12e8acae, type: 3}
+  - {fileID: 3060655909917429462, guid: 495c19ef6c6cc834e89823b4400a9286, type: 3}
+  - {fileID: 8212502036170396502, guid: 60448869de03dac479619ad65e2378b2, type: 3}
+  - {fileID: -6029005605082270210, guid: 47b9a9950d8039a44b8776730d7f54db, type: 3}
+  - {fileID: 1509796537631969559, guid: ea883e716c9e85d439aabbbdd363b632, type: 3}
+  - {fileID: 4181604831005442503, guid: e8f69b3f71b6fce48a900ba25ac2aee9, type: 3}
+  - {fileID: -7306780904787451178, guid: ceb6cd4d1a57b2041aaf4153d6d0e154, type: 3}
+  tetrisShapesColor:
+  - {r: 0.3019608, g: 0.8352942, b: 0.6901961, a: 1}
+  - {r: 0.9294118, g: 0.58431375, b: 0.2901961, a: 1}
+  - {r: 0.59607846, g: 0.86274517, b: 0.33333334, a: 1}
+  - {r: 0.86274517, g: 0.39607847, b: 0.33333334, a: 1}
+  - {r: 0.36078432, g: 0.74509805, b: 0.8941177, a: 1}
+  - {r: 0.2627451, g: 0.7294118, b: 0.6039216, a: 1}
+  - {r: 0.34901962, g: 0.7960785, b: 0.5254902, a: 1}
 --- !u!1001 &581587444
 PrefabInstance:
   m_ObjectHideFlags: 0
