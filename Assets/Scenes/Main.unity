@@ -5988,7 +5988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorAudioClip: {fileID: 8300000, guid: ef714803c9fd0c14bbc1ddff6743785e, type: 3}
-  dropAudioClip: {fileID: 8300000, guid: df98ec090b11487438b996d58e9342aa, type: 3}
+  fallAudioClip: {fileID: 8300000, guid: df98ec090b11487438b996d58e9342aa, type: 3}
+  leftRightMoveClip: {fileID: 8300000, guid: 792f86c16893c4e4ea54613089483a52, type: 3}
 --- !u!1001 &581587444
 PrefabInstance:
   m_ObjectHideFlags: 0
