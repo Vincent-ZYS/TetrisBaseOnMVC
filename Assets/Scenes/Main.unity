@@ -587,7 +587,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 55f6424374cafa44d9cf02c4bdba25a5, type: 3}
-    m_FontSize: 100
+    m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -3373,6 +3373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a585f32a50871504eaf83cb185009207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tetrisFallSpeedTime: 0.8
 --- !u!1001 &345013475
 PrefabInstance:
   m_ObjectHideFlags: 0
