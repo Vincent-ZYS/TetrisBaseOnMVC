@@ -3373,7 +3373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a585f32a50871504eaf83cb185009207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tetrisFallSpeedTime: 0.8
+  tetrisNormalFallSpeedTime: 0.8
+  tetrisAccelarationRate: 20
 --- !u!1001 &345013475
 PrefabInstance:
   m_ObjectHideFlags: 0
