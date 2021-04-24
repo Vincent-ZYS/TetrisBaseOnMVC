@@ -4741,10 +4741,10 @@ RectTransform:
   m_Father: {fileID: 1373630599}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75, y: 105.5}
+  m_SizeDelta: {x: 1134.7, y: 3917.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498254240
 MonoBehaviour:
@@ -5992,6 +5992,8 @@ MonoBehaviour:
   cursorAudioClip: {fileID: 8300000, guid: ef714803c9fd0c14bbc1ddff6743785e, type: 3}
   fallAudioClip: {fileID: 8300000, guid: df98ec090b11487438b996d58e9342aa, type: 3}
   leftRightMoveClip: {fileID: 8300000, guid: 792f86c16893c4e4ea54613089483a52, type: 3}
+  tetrisRowEliminatedClip: {fileID: 8300000, guid: d14745772c2930b4b9f8e459b066cab8,
+    type: 3}
 --- !u!1001 &581587444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7576,10 +7578,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 790228916}
-  - component: {fileID: 790228920}
-  - component: {fileID: 790228919}
-  - component: {fileID: 790228918}
   - component: {fileID: 790228917}
+  - component: {fileID: 790228918}
+  - component: {fileID: 790228919}
+  - component: {fileID: 790228920}
   m_Layer: 0
   m_Name: GameState
   m_TagString: Untagged
@@ -19110,10 +19112,10 @@ RectTransform:
   m_Father: {fileID: 1843168074}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: 558.7, y: 200.8}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 324}
+  m_SizeDelta: {x: 558.7, y: 198.79999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993302227
 MonoBehaviour:
