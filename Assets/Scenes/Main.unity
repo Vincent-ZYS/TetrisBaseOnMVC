@@ -4789,7 +4789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3985849, g: 0.5, b: 0.47590446, a: 0.41960785}
+  m_Color: {r: 0.3985849, g: 0.5, b: 0.47590446, a: 0.6}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6024,6 +6024,7 @@ MonoBehaviour:
   leftRightMoveClip: {fileID: 8300000, guid: 792f86c16893c4e4ea54613089483a52, type: 3}
   tetrisRowEliminatedClip: {fileID: 8300000, guid: d14745772c2930b4b9f8e459b066cab8,
     type: 3}
+  gameOverClip: {fileID: 8300000, guid: b2fa993c86a6ef845acf788a47bf6895, type: 3}
 --- !u!1001 &581587444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6913,7 +6914,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 790228920}
+      objectReference: {fileID: 790228919}
     - target: {fileID: 8441946757205614527, guid: fe394fa44ad75fc4da3105f879e71e47,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -17880,7 +17881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0.74509805}
+  m_Color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0.9490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
